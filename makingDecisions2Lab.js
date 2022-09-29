@@ -29,6 +29,10 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
   Loop through the 'family' array and console.log every item.
 */
 
+
+for (let i=0; i<family.length; i++) {
+  console.log("family array:", family[i])
+}
 //Code Here
 
 
@@ -45,7 +49,15 @@ let evensArr = []
 */
 
 //Code Here
+for (let i=0; i<nums.length; i++) {
+  if (nums[i] % 2 !== 0) {
+  }
+  if (nums[i] % 2 === 0) {
+    evensArr.push(nums[i])
+  }
+}
 
+console.log("evens array:", evensArr)
 
 
 ////////// PROBLEM 5 //////////
