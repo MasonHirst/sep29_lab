@@ -190,6 +190,7 @@ switch (letterGrade) {
     break;
 }
 
+console.log(".............")
 
 ////////// PROBLEM 11 //////////
 /* The famous FizzBuzz, Devmountain style!
@@ -216,3 +217,15 @@ switch (letterGrade) {
 */
 
 //Code Here
+
+for (let i = 1; i<101; i++) {
+  if (i % 15 === 0) {
+    console.log("Devmountain")
+  } else if (i % 5 === 0) {
+      console.log("mountain")
+  } else if (i % 3 === 0) {
+      console.log("Dev")
+  } else {
+    console.log(i)
+  }
+}
