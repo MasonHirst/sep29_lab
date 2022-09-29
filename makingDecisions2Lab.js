@@ -141,6 +141,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+for (let i = letters.length -1; i >= 0; i--) {
+  console.log(letters[i])
+}
+
+console.log("...............")
 
 
 ////////// Advanced Problems //////////
@@ -164,6 +169,26 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
+switch (letterGrade) {
+  case "A","a":
+    console.log("The student is doing excellently.")
+    break;
+  case "B","b":
+    console.log("The student is doing well.")
+    break;
+  case "C", "c":
+    console.log("The student is doing alright.")
+    break;
+  case "D", "d":
+    console.log("The student is not doing very well.")
+    break;
+  case "F", "f":
+    console.log("The student is failing.")
+    break;
+  default:
+    console.log("Not and eligible grade.")
+    break;
+}
 
 
 ////////// PROBLEM 11 //////////
